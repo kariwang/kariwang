@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Documentation part 2 Prototyping">
+<title>Prototyping</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<br><br><center><a href="home.html">GO BACK TO HOME PAGE</a></center><br>
+<center><h1>Key Points and Ideation</h1></center>
+	  <p><img src="images/key points+ideation.png" alt="keypoints+ideation" width="100%"></p>
+	  <p style="text-align:justify">It is very important for students to maintain physical/mental health to keep up with the workload (lectures, assignments/projects, research, part-time jobs etc.) during the trimester. Also many are paying student loans or getting support from families, a low budget healthcare is essential.
+	  I grouped the identified key points into the following 4 parts;
+	  <br>1. It’s difficult to get a timely appointment at Student Health.
+      <br>2. There is a lack of transparency and flexibility regarding the current booking system (no visible clinic schedules; no checkable personal medical history; hard to make adjustments regarding the booking and cancellation of appointments).
+	  <br>3. It’s troublesome to repeat scripts and get test results through calling the clinics.
+	  <br>4. Result from point 1 to 3, students may seek other solutions including visiting other clinics and self-medication, which leads to higher budget and time waste.</p>
+	  <center><h1>Prioritisation</h1></center>
+	  <p style="text-align:justify">Using the IDEO Innovation Scale, the possible solutions are prioritized considering efficiency and effectiveness, with new/innovative ideas being highlighted.</p>
+	  <p><img src="images/prioritisation.png" alt="prioritisation" width="100%"></p>
+	  <p style="text-align:justify">To solve the problem within a restricted timeline, I’ll focus on solutions listed in the first quadrant (short time & expected effectiveness). It is easier to get a timely appointment or flexibly fit around study/working schedule when the clinic availability is visible. This could be a multi-functional website with the following features;
+	  <br>1.	Clinic calendar that displays available time slots for appointments and queuing status as well as allows booking, cancellation and queuing request.
+	  <br>2.	Online personal login account that allows updating personal information, managing appointments, checking personal medical history, repeating prescriptions and seeing test results.
+	  <br>3.	Optional notifications of appointments, recent cancellations, test results to email/phone provided in the personal account by students.
+	  <br>4.	Provides emergency lines, health lines, health guidance and other relevant helpful information.</p>
+	  <center><h1>Wireframe (Prototyping)</h1></center>
+	  <p><img src="images/wireframe.jpg" alt="wireframe" width="100%"></p>
+	  <center><h1>Iterations</h1></center>
+	  <p style="text-align:justify">Feedback on the wireframe:
+	  <br>1. (general) Make it easier and shorter (e.g. no extra form for script repeating request when the user fills in personal info in another section already).
+	  <br>I was also thinking about:
+	  <br>2. Legal issues regarding personal health access rights.
+	  <br>3. Log in as the first step so that the user doesn't need to log in every time when booking/cancelling.
+	  <br>4. Better categorize the small sections.
+	  <br>According to the Health Information Privacy Code, patients have the rights to access their personal health records upon a request.As the request needs to be granted before checking the records, I’ll put up a request section instead of the personal health records section to make sure the content is legal.</p>
+	  <center><h1>High-Fidelity Mockups</h1></center>
+	  <a href="mockup/mockup.html" title="link to mockup">High-Fidelity Mockups</a><br><br><br>
+	  	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+	<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script> 
+</body>
+</html>
