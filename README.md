@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="description" content="A page for documentation of MDDN402 Individual Project">
-<title>Kari's Documentation</title>
+
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
